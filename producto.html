@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fron End Store</title>
+    <link rel="stylesheet" href="./Css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Css/style.css">
+</head>
+<body>
+    <header>
+        <a class="header__logo" href="index.html">
+            <img src="./img/logo.png" alt="logotipo">
+        </a>
+    </header>  
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">TIENDA</a>
+        <a class="navegacion__enlace" href="nosotros.html">NOSOTROS</a>
+    </nav>
+    <main>
+        <h1 class="main__text">Vue.js</h1>
+        <div class="contenedor grid__producto">
+            <img src="./img/1.jpg" alt="imagen del producto">
+            <div class="producto__compra">
+                <p class="producto__nombre">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more 
+                    recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                <form class="producto__formulario">
+                    <select class="producto__campo">
+                        <option disabled selected>--Selecciona una talla--</option>
+                        <option>Grande</option>
+                        <option>Mediano</option>
+                        <option>Pequeno</option>
+                    </select>
+                    <input class="producto__campo" type="number">
+                    <input class="producto__submit" type="submit" value="Agregar al carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="footer__text">FRONT STORE - TODOS LOS DERECHOS RESERVADOS</p>
+    </footer>
+</body>
+</html>
+
+
